@@ -1,16 +1,5 @@
 <div align="center">
 
-<br/>
-
-```
-███╗   ██╗███████╗██╗  ██╗ █████╗ ██████╗ ███╗   ███╗██╗███╗   ██╗
-████╗  ██║██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗████╗ ████║██║████╗  ██║
-██╔██╗ ██║█████╗   ╚███╔╝ ███████║██║  ██║██╔████╔██║██║██╔██╗ ██║
-██║╚██╗██║██╔══╝   ██╔██╗ ██╔══██║██║  ██║██║╚██╔╝██║██║██║╚██╗██║
-██║ ╚████║███████╗██╔╝ ██╗██║  ██║██████╔╝██║ ╚═╝ ██║██║██║ ╚████║
-╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝
-```
-
 ### ✦ A stunning full-stack admin dashboard ✦
 ### Built with Next.js 14 · MUI v5 · Zustand · NextAuth · TypeScript
 
@@ -105,7 +94,6 @@ src/
 ## ⚙️ State Management — Why Zustand?
 
 ```ts
-// Zero boilerplate — just create a store and use it
 const useUsersStore = create<UsersState>((set, get) => ({
   users: [],
   fetchUsers: async (limit, skip, query) => {
@@ -215,41 +203,12 @@ npm start
 | `GET /products/{id}` | Single product detail |
 | `GET /products/categories` | All categories |
 
-All data from [dummyjson.com](https://dummyjson.com) 🙌
-
----
-
-## 📋 Evaluation Checklist
-
-| Requirement | Status |
-|-------------|--------|
-| Next.js 14 project | ✅ |
-| MUI v5 components throughout | ✅ |
-| Zustand state management | ✅ |
-| NextAuth authentication | ✅ |
-| Login page with DummyJSON auth | ✅ |
-| Token stored in Zustand + localStorage | ✅ |
-| Protected dashboard routes | ✅ |
-| Users list with pagination + search | ✅ |
-| Single user detail page | ✅ |
-| Products grid with pagination | ✅ |
-| Products search + category filter | ✅ |
-| Single product detail + image carousel | ✅ |
-| Async Zustand actions for API calls | ✅ |
-| Zustand explanation comments | ✅ |
-| Responsive layouts (mobile + desktop) | ✅ |
-| React.memo for performance | ✅ |
-| useCallback / useMemo optimization | ✅ |
-| API-side pagination (limit + skip) | ✅ |
-| Client-side caching with comments | ✅ |
-| Debounced search | ✅ |
-| TypeScript throughout | ✅ |
-| Clean folder structure | ✅ |
+All data from [dummyjson.com](https://dummyjson.com) 
 
 ---
 
 <div align="center">
 
-Made with ❤️ by **Dharan** · Powered by [DummyJSON](https://dummyjson.com) · Built on [Next.js](https://nextjs.org)
+Made by **Dharan** · Powered by [DummyJSON](https://dummyjson.com) · Built on [Next.js](https://nextjs.org)
 
 </div>
